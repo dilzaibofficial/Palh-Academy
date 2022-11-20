@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-color: #20232a;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.logo {
+  flex-direction: row;
+  width: 10%;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #61dafb;
+  padding: 8px;
+}
+
+.logo a img {
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin-top: 2px;
+  margin-right: 15px;
+}
+.logo a {
+  text-decoration: none;
+}
+.logo a h1 {
+  color: #61dafb;
+  padding: 0;
+  font-size: 35px;
+}
+
+.pages {
+  width: 35%;
+  height: 100%;
+}
+
+.pages ul {
+  display: flex;
+  list-style: none;
+}
+
+.pages ul li {
+  padding: 10px 20px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.pages ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.searchbox {
+  width: 10%;
+  height: 100%;
+  margin-right: 15%;
+  padding: 10px 0px;
+}
+
+.searchbox input {
+  outline: none;
+  background-color: transparent;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+}
+
+.searchbox input:hover {
+  background-color: #22262fe3;
+}
+
+.poster {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  background-color: #22262fe3;
+}
+
+.poster h1 {
+  font-size: 80px;
+  color: #61dafb;
+  margin-bottom: 30px;
+}
+
+.poster h4 {
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+.poster_button button {
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 16px;
+  width: 120px;
+  height: 50px;
+  margin-right: 5px;
+  font-weight: 500;
+}
+.poster_button a {
+  font-weight: 500;
+  color: #61dafb;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.intro-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #20232a;
+  color: white;
+  padding: 10px 0px;
+}
+
+.intro-page h1 {
+  font-weight: 500px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: solid 5px #61dafb;
+}
+
+.about_page {
+  width: 100%;
+  display: flex;
+  background-color: #22262fe3;
+}
+
+.about_intro {
+  width: 60%;
+  float: left;
+  padding: 10px;
+}
+
+.about_intro h1 {
+  float: left;
+  color: #61dafb;
+  border-bottom: #20232a solid 5px;
+}
+.about_intro p {
+  color: white;
+  float: left;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.about-cir{
+  padding: 10px;
+}
+
+.about-cir img {
+  height: 380px;
+}
+
+.why_palh {
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px;
+  background-color: #22262fe3;
+  width: 100%;
+  display: flex;
+}
+
+.why_palh_intro {
+  float: left;
+  flex-direction: column;
+  float: left;
+}
+.why_palh_intro h1 {
+
+  color: #61dafb;
+  border-bottom: #20232a solid 5px;
+}
+.why_palh p {
+  color: white;
+  font-size: 22px;
+  padding: 5px;
+}
